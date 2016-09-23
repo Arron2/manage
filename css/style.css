@@ -1,0 +1,370 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: none;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+html,body{
+	height: 100%;
+}
+.wrap{
+	height: 100%;
+	position: relative;
+	/*overflow: hidden;*/
+}
+.main-header{
+	height: 50px;
+	position: relative;
+	z-index: 150;
+}
+.navbar-top{
+	background: #3c8dbc;
+	height: 50px;
+	margin-left: 230px;
+}
+/*怪异模式*/
+.logo{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	width: 230px;
+	font-size: 20px;
+	font-weight: 300;
+	padding: 0 15px;
+	color: #ffffff;
+	background: #367FA9;
+	text-align: center;
+}
+.logo span.logo-lg{
+	text-shadow: 3px 3px 7px #000;
+}
+.logo span.logo-mini{
+	display: none;
+}
+.sidebar-toggle{
+	display: block;
+	color: #ffffff;
+	padding: 16px 15px;
+	float: left;
+	height: 50px;
+	overflow: hidden;
+}
+.sidebar-toggle:hover{
+	background: #367FA9;
+}
+.navbar-custom-menu{
+	float: right;
+}
+.nav-bar{
+	height: 50px;
+}
+.navbar-custom-menu .nav-bar .nav-dropdown{
+	height: 100%;
+	line-height: 50px;
+	float: left;
+	padding: 0 10px;
+	color: #f6f6f6;
+}
+
+.main-sidebar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 230px;
+	height: 100%;
+	background: #222d32;
+	z-index: 100;
+	padding-top: 50px;
+}
+.user-panel{
+	width: 230px;
+	overflow: hidden;
+	padding: 25px 5px 5px 15px;
+
+}
+.user-panel .user-image{
+	float: left;
+	overflow: hidden;
+	border-radius:50%;
+	width: 45px;
+	height: 45px;
+}
+.user-panel .user-image img{
+	width: 45px;
+	height: 45px;
+}
+.user-panel .user-info{
+	color: #FFFFFF;
+	float: left;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 10px;
+}
+.clear-float{
+	clear: both;
+}
+.siderbar a{
+	color: #b8c7ce;
+	font-size: 12px;
+}
+.siderbar{
+	
+}
+.sidebar-menu{
+	width: 230px;
+	position: relative;
+	left: 0;
+	margin-left: 0;
+}
+.treeview{
+	width: 230px;
+	position: relative;
+	left: 0;
+	/*overflow: hidden;*/
+}
+.treeview a{
+	padding: 12px 5px 12px 15px;
+	display: block;
+	width: 230px;
+}
+.treeview a span{
+	
+}
+.pull-right{
+	margin-right: 20px;
+}
+.siderbar .active{
+	background: #1E282C;
+	border-left: 2px solid #3c8dbc;
+	padding-left: 14px;
+}
+.sidebar-menu-item{
+	height: 40px;
+}
+.sidebar-menu-item:hover{
+	background: #1E282C;
+	border-left: 2px solid #3c8dbc;
+	padding-left: 14px;
+}
+.sidebar-menu-item .fa-menu-item{
+	
+}
+.siderbar .treeview-menu{
+	display: none;
+	width: 230px;
+}
+.siderbar .treeview-menu li{
+	margin-left: 20px;
+}
+.siderbar .treeview-menu li a{
+	width: 210px;
+}
+
+/**content**/
+.content-wrapper{
+	overflow: hidden;
+	margin-left: 230px;
+}
+.content-tabs{
+	height: 40px;
+	border-bottom: 1px solid #222D32;
+	position: relative;
+}
+.roll-nav{
+	height: 100%;
+	width: 40px;
+	background: #FFFFFF;
+	position: absolute;
+	top: 0;
+	cursor: pointer;
+}
+.roll-left{
+	left: 0;
+}
+.roll-right{
+	right: 120px;
+}
+.btn-group{
+	width: 80px;
+	height: 39px;
+	right: 40px;
+	border-bottom: 1px solid #222D32;
+}
+.btn-group button{
+	height: 100%;
+	width: 100%;
+	border: none;
+	background: #FAFAFA;
+}
+.btn-group ul{
+	border: 1px solid #ccc;
+	background: #fff;
+	/*margin-top: 3px;*/
+	width: 120px;
+	position: absolute;
+	right: 0px;
+	top:42px;
+	display: none;
+}
+.btn-group .open{
+	
+}
+.btn-group ul li{
+	padding: 5px 20px;
+}
+.btn-group ul li:hover{
+	background: #ccc;
+}
+.fullscreen{
+	right: 0;
+}
+.page-tabs{
+	height: 100%;
+	margin-left: 40px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.page-tabs-content{
+	height: 100%;
+	background: #FAFAFA;
+}
+.menuTab{
+	height: 100%;
+	line-height: 40px;
+	font-size: 12px;
+	padding: 0 20px;
+	float: left;
+	color: #475059;
+}
+.page-tabs-content .active{
+	background: #222D32;
+	color: #ffffff;
+}
+
+.main-content{
+	min-height: 100px;
+	overflow: hidden;
+}
+.main-content iframe{
+	height: 100%;
+	width: 100%;
+}
+/*设置小图标位置*/
+.fa{
+	width: 20px;
+}
+.fa-remove{
+	margin-left: 10px;
+}
+.hide{
+	display: none;
+}
+.show{
+	display: block;
+}
+/**********侧边栏收纳***********/
+.sidebar-collapse .logo span.logo-lg{
+	display: none;
+}
+.sidebar-collapse .logo span.logo-mini{
+	display: block;
+	text-shadow: 3px 3px 7px #000;
+}
+.sidebar-collapse .logo{
+	/*width: 50px;*/
+}
+.sidebar-collapse .navbar-top{
+	/*margin-left: 50px;*/
+}
+.sidebar-collapse .user-info{
+	display: none;
+}
+.sidebar-collapse .user-panel{
+	
+	padding: 25px 5px 5px 10px;
+
+}
+.sidebar-collapse .user-image{
+	width: 30px;
+	height: 30px;
+}
+.sidebar-collapse .user-panel .user-image img{
+	width: 30px;
+	height: 30px;
+}
+.sidebar-collapse .main-sidebar{
+	/*width: 50px;*/
+}
+.sidebar-collapse .sidebar-menu-item .pull-right{
+	display: none;
+}
+.sidebar-collapse .sidebar-menu-item span{
+	display: none;
+}
+.sidebar-collapse .content-wrapper{
+	/*margin-left: 50px;*/
+}
+.sidebar-collapse .sidebar-menu{
+	z-index: 500;
+}
+.sidebar-collapse .treeview{
+	position: relative;
+	width: 50px;
+}
+
+.sidebar-collapse .sidebar-menu-item{
+	width: 50px;
+}
+.sidebar-collapse .hover{
+	background: #1E282C;
+	border-left: 2px solid #3c8dbc;
+	padding-left: 14px;
+}
+.sidebar-collapse .hover span{
+	display: block;
+	width: 80px;
+	position: absolute;
+	top: 0;
+	left: 80px;
+	height: 40px;
+	line-height: 40px;
+}
+.sidebar-collapse .open-menu{
+	position: absolute;
+	top: 40px;
+	left: 50px;
+	width: 180px;
+	z-index: 1000;
+	display: none;
+	
+}
+.sidebar-collapse .open-item{
+	width: 230px;
+	display: block;
+}
+.sidebar-collapse .treeview:hover .sidebar-menu-item{
+	
+}
+.sidebar-collapse .treeview:hover{
+	width: 230px;
+}
+.sidebar-collapse .treeview:hover .open-menu{
+	display: block;
+}
+.sidebar-collapse .siderbar .treeview-menu li{
+	background: #475059;
+	margin-left: 0;
+}
+.sidebar-collapse .siderbar .treeview-menu li a{
+	width: 180px;
+}

@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>管理后台</title>
+<!-- <script src="https://use.fontawesome.com/321432e266.js"></script> -->
+<link rel="stylesheet" href="static/fonts/font-awesome-4.6.3/css/font-awesome.min.css"/>
+<script type="text/javascript" src="http://libs.baidu.com/jquery/1.9.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/admin.js"></script>
+<style>
+
+</style>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+<body class="">
+<div class="wrap" id="requestFullScreen">
+	<!--http://demo.mycodes.net/houtai/LeaRun/#-->
+	<!--头部信息-->
+	<header class="main-header">
+		<a href="#" class="logo">
+			<span class="logo-mini">LR</span>
+			<span class="logo-lg">管理后台<strong>框架</strong></span>
+		</a>
+		<nav class="navbar-top">
+			<a href="#" class="sidebar-toggle">
+				<i class="fa fa-bars" aria-hidden="true"></i>
+			</a>
+			<div class="navbar-custom-menu">
+				<ul class="nav-bar">
+					<li class="nav-dropdown">administrator</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<!--侧边栏-->
+	<div class="main-sidebar">
+		<div class="siderbar">
+			<div class="user-panel">
+				<div class="user-image">
+					<img src="static/image/user2-160x160.jpg"/>
+				</div>
+				<div class="user-info">administrator</div>
+				<div class="clear-float"></div>
+			</div>
+			<!-- <div class=""></div> -->
+			<ul class="sidebar-menu" id="sidebar-menu">
+				<li class="treeview">
+					<a href="#" class="sidebar-menu-item open-item"> 
+						<i class="fa fa-desktop fa-menu-item"></i>
+						<span>系统管理</span>
+						<i class="fa fa-angle-left pull-right"></i> 
+					</a>
+					<ul class="treeview-menu open-menu">
+						<li>
+							<a href="test.html" data-id='1'>
+								<i class="fa fa-leaf"></i>
+								<span>行政区域1</span>
+							</a>
+						</li>
+						<li>
+							<a href="https://www.baidu.com" data-id='2'>
+								<i class="fa fa-leaf"></i>
+								<span>行政区域2</span>
+							</a>
+						</li>
+						<li>
+							<a href="" data-id='3'>
+								<i class="fa fa-leaf"></i>
+								<span>行政区域3</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="treeview">
+					<a href="#" class="sidebar-menu-item open-item">
+						<i class="fa fa-coffee"></i>
+						<span>单位组织</span>
+						<i class="fa fa-angle-left pull-right"></i>
+					</a>
+					<ul class="treeview-menu open-menu">
+						<li>
+							<a href="#" data-id='4'>
+								<i class="fa fa-leaf"></i>
+								<span>行政区域4</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-id='5'>
+								<i class="fa fa-leaf"></i>
+								<span>行政区域5</span>
+							</a>
+						</li>
+						<li>
+							<a href="#" data-id='6'>
+								<i class="fa fa-leaf"></i>
+								<span>行政区域6</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+				<li class="treeview">
+					<a href="#" class="sidebar-menu-item open-item">
+						<i class="fa fa-share-alt"></i>
+						<span>工作流程</span>
+						<i class="fa fa-angle-left pull-right"></i>
+					</a>
+					<ul class="treeview-menu open-menu">
+						<li>
+							<a href="#">
+								<i class="fa fa-leaf"></i>
+								<span>行政区域7</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-leaf"></i>
+								<span>行政区域8</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="fa fa-leaf"></i>
+								<span>行政区域9</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		
+	</div>
+	<!--content-->
+	<div class="content-wrapper">
+		<div class="content-tabs">
+			<button class="roll-nav roll-left">
+				<i class="fa fa-backward"></i>
+			</button>
+			<nav class="page-tabs">
+				<div class="page-tabs-content" id="page-tabs-content">
+					<a href="#" id="tab0" class="menuTab" data-id="0">欢迎首页</a>
+				</div>
+			</nav>
+			<button class="roll-nav roll-right">
+				<i class="fa fa-forward"></i>
+			</button>
+			<div class="btn-group roll-nav">
+				<button class="dropdown tabClose">
+					页签操作
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<ul class="dropdown-menu dropdown-menu-right">
+					<li data-type="reflash-tab">刷新当前</li>
+					<li data-type="close-tab">关闭当前</li>
+				</ul>
+			</div>
+			<button class="roll-nav fullscreen">
+				<i class="fa fa-arrows-alt"></i> 
+			</button>
+		</div>
+		<div class="content-iframes">
+			<div class="main-content" id="main-content">
+				<iframe src="welcome.html" name="content-iframe0"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
